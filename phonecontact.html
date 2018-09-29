@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="en">
 
 <head>
   <meta charset="utf-8">
@@ -14,6 +14,9 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -22,7 +25,41 @@
   <![endif]-->
 
   <!-- Add your site or application content here -->
-  <p>Welcome. <a href="cv/">See CV.</a><a href="card/tlima-public.vcf">Add contact</a></p>
+  <div class="jumbotron text-center">
+    <h1>Thomas Ferreira de Lima</h1>
+    <p>Thank you for scanning the card. Welcome to my page.</p>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-4">
+          <img style="max-height: 400px;" src="cv/img/headshot.jpg" alt="Photo of Thomas Ferreira de Lima"
+               class="img-responsive img-thumbnail"/>
+      </div>
+      <div class="col-sm-8">
+        <a class="btn btn-success btn-lg btn-block" href="cv/index.html" role="button">
+          <span class="glyphicon glyphicon-list-alt"></span>
+          See CV.
+        </a>
+        <a class="btn btn-info btn-lg btn-block" href="card/tlima-public.vcf" role="button">
+          <span class="glyphicon glyphicon-phone"></span>
+          Add to contacts (vCard)
+        </a>
+        <a class="btn btn-primary btn-lg btn-block" href="mailto:tlima@princeton.edu" role="button">
+          <span class="glyphicon glyphicon-envelope"></span>
+          tlima@princeton.edu
+        </a>
+        <a class="btn btn-default btn-lg btn-block" href="https://github.com/thomaslima" role="button">
+          <span class="glyphicon glyphicon-console"></span>
+          github.com/thomaslima
+        </a>
+        <a class="btn btn-default btn-lg btn-block" href="https://www.linkedin.com/in/ferreiradelima/" role="button">
+          <span class="glyphicon glyphicon-briefcase"></span>
+          linkedin.com/in/ferreiradelima
+        </a>
+      </div>
+    </div>
+  </div>
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
