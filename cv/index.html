@@ -404,7 +404,13 @@
       (function() {
         // If the height/width ratio is bigger than or equal to A4 height/width ratio,
         // it should be portrait.
-        var shouldBePortrait = document.body.offsetHeight / document.body.offsetWidth >= 297 / 210;
+
+        // A4: 
+        // var ratio = 297 / 210;
+        // Letter:
+        var aspect_ratio = 279 / 216;
+
+        var shouldBePortrait = document.body.offsetHeight / document.body.offsetWidth >= aspect_ratio;
 
         var setPageSize = function(size) {
           var style = document.createElement('style');
@@ -437,19 +443,19 @@
           var pageWidth, pageHeight;
           if (shouldBePortrait) {
             pageHeight = document.body.offsetHeight / pixelCmRatio + 0.1;
-            pageWidth = pageHeight * 210 / 297;
+            pageWidth = pageHeight / aspect_ratio;
           } else {
             pageWidth = document.body.offsetWidth / pixelCmRatio + 0.1;
-            pageHeight = pageWidth * 210 / 297;
+            pageHeight = pageWidth / aspect_ratio;
           }
           setPageSize(pageWidth + 'cm ' + pageHeight + 'cm');
         };
 
         var prepareA4Print = function() {
           if (shouldBePortrait) {
-            setPageSize('A4 portrait');
+            setPageSize('letter portrait');
           } else {
-            setPageSize('A4 landscape');
+            setPageSize('letter landscape');
           }
         };
 
