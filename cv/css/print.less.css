@@ -3,10 +3,14 @@
     font-weight: initial !important;
     font-size: 11pt;
   }
-  .container {
+  .container,
+  .container .half-page {
     width: 100% !important;
   }
   header .info-pic {
+    display: none;
+  }
+  .print-message {
     display: none;
   }
   header .name {
@@ -33,6 +37,9 @@
     page-break-inside: avoid;
   }
   @page {
-    margin: 2cm;
+    margin: 0.75in;
+  }
+  header.container {
+    padding-top: 0 !important;
   }
 }

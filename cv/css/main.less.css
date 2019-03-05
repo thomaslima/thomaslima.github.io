@@ -116,6 +116,9 @@ section:after {
   .padding-left-bs {
     padding-left: 0;
   }
+  .print-message {
+    display: none;
+  }
 }
 a,
 a:focus,
@@ -126,6 +129,16 @@ a:visited {
 }
 a:hover {
   border-bottom: 1px #3E445A dotted;
+}
+.print-message {
+  text-align: center;
+  margin-top: -15px;
+  color: red;
+}
+.print-message p {
+  font-family: sans-serif;
+  font-size: 0.75rem;
+  max-width: 100%;
 }
 header {
   padding: 20px 0 !important;
