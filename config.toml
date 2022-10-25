@@ -1,0 +1,4 @@
+baseURL = 'http://tlima.me/'
+languageCode = 'en-us'
+title = 'Thomas Ferreira de Lima'
+theme = 'hugo-profile'
