@@ -1,15 +1,51 @@
-baseURL: "https://hugo-profile.netlify.app"
+baseURL: "https://tlima.me"
 languageCode: "en-us"
-title: "Hugo Profile"
+title: "Thomas Ferreira de Lima | Personal Page"
 theme: hugo-profile
+contentDir: content
+googleAnalytics: G-9JBSB4773F
 
 params:
+  title: "Thomas Ferreira de Lima"
+  description: Personal Website
+  favicon: "/images/fav.png"
+
+  # Whether the fade animations on the home page will be enabled
+  animate: true
+
+  useBootstrapCDN: true
+
+  font:
+    fontSize: 1.0rem # default: 1rem
+  #   fontWeight: 500 # default: 400
+  #   lineHeight: 1 # default: 1.5
+  #   textAlign: right # default: left
+
+  # color preference
+  color:
+  #   textColor:
+  #   secondaryTextColor:
+  #   backgroundColor:
+  #   secondaryBackgroundColor:
+    primaryColor: "#0061c9"
+  #   secondaryColor:
+    highlightColor: "#c9e8ff"
+
+    darkmode:
+  #     textColor:
+  #     secondaryTextColor:
+  #     backgroundColor:
+  #     secondaryBackgroundColor:
+      primaryColor: "#c9e8ff"
+      secondaryColor: "#ffffff"
+      highlightColor: "#23577e"
+
   hero:
     enable: true
     intro: "Hi, my name is"
     title: "Thomas Ferreira de Lima"
-    subtitle: "Researcher @ NEC Labs America."
-    content: "My research is on Integrated Neuromorphic Photonics, which involves building large-scale photonic circuits on chip that emulate the functionality of neural networks, but working at GHz speed."
+    subtitle: "Welcome to my personal website."
+    content: "I currently work as a researcher at NEC Labs America. My research is on Integrated Neuromorphic Photonics, which involves building large-scale photonic circuits on chip that emulate the functionality of neural networks, but working at GHz speed."
     image: /images/headshot.jpg
     button:
       enable: true
@@ -33,10 +69,9 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.png"
+    image: "/images/Myself with Dalle.png"
     content: |-
-      In 2021, I completed my Ph.D. in [Paul Prucnal's lab](http://faculty.ee.princeton.edu/prucnal/) at Princeton University. My research is on <i>Integrated Neuromorphic Photonics</i>, which involves building large-scale photonic circuits on chip that emulate the functionality of neural networks, but working at GHz speed. See my [online CV](cv/) for more detail.
-      I am currently working on a project that will be used to help people find the best way to get around the city.
+      I love AI. The picture on the left and this website's icon were both AI generated with textual prompts. In 2021, I completed my Ph.D. in [Paul Prucnal's lab](http://faculty.ee.princeton.edu/prucnal/) at Princeton University. See my [online CV](cv/) for more detail.
     skills:
       enable: false
       title: "Here are a few technologies I've been working with recently:"
@@ -47,3 +82,13 @@ params:
         - "React"
         - "Node"
         - "Express"
+
+  #Contact
+  contact:
+    enable: true
+    title: "Ways to Contact Me"
+    content: My inbox is occasionally monitored. Check the social links above for contacting me via linkedin or github. If those don't work, try the following email address. I’ll try my best to get back to you!
+    email: website@tlima.me
+    btnName: website@tlima.me
+  footer:
+    recentPosts: false
