@@ -36,16 +36,36 @@ params:
   #     secondaryTextColor:
   #     backgroundColor:
   #     secondaryBackgroundColor:
-      primaryColor: "#c9e8ff"
-      secondaryColor: "#ffffff"
+      # primaryColor: "#c9e8ff"
+      # secondaryColor: "#ffffff"
       highlightColor: "#23577e"
+
+  # If you want to customize the menu, you can change it here
+  navbar:
+    align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
+    # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+    showBrandLogo: false # Show brand logo in nav bar | default is true
+    brandName: "Thomas Ferreira de Lima's personal website" # Brand name for the brand | default is the title variable
+    disableSearch: true
+    # searchPlaceholder: "Search"
+    stickyNavBar:
+      enable : true
+      showOnScrollUp : true
+    enableSeparator: false
+    menus:
+      disableAbout: false
+      disableExperience: false
+      disableEducation: false
+      disableProjects: false
+      disableAchievements: false
+      disableContact: false
 
   hero:
     enable: true
     intro: "Hi, my name is"
     title: "Thomas Ferreira de Lima"
     subtitle: "Welcome to my personal website."
-    content: "I am an academic researcher in Electrical Engineering. My research is on Integrated Photonics for Computing, which involves using the physics of optical lightwaves to emulate the functionality of neural networks, but working at GHz speed."
+    content: "I am a physicist specializing in photonic design. Although I am currently working on quantum computing, my PhD research was on integrated photonics for neuromorphic computing, which involves using the physics of optical lightwaves to emulate the functionality of neural networks, but working at gigahertz speed."
     image: /images/IMG_7922_cropped.jpg
     button:
       enable: true
@@ -71,9 +91,9 @@ params:
     title: "About Me"
     image: "/images/IMG_7752_cropped.jpeg"
     content: |-
-      I come from Brazil but live in Princeton, NJ, USA, and currently work as a researcher at NEC Labs America.
-      As a member of the IEEE Photonics Society and the Optica Society, I am constantly exploring new research avenues and contribute to advancing knowledge in my field.
-      Outside of work, I enjoy swimming, hiking and landscape photography ([flickr page](https://www.flickr.com/people/197302687@N07/)). With my fujifilm camera, I seek to capture the beauty of light in nature while traveling or hiking.
+      I come from Brazil but live in Princeton, NJ, USA, and currently work as a principal photonic design engineer at [Quantum Transistors](https://quantumtransistors.com) in New York City.
+      Motivated by interesting problems, I am constantly exploring new research avenues and contributing to advancing knowledge in my field, including opensource projects.
+      Outside of work, I enjoy swimming, hiking and landscape photography ([flickr page](https://www.flickr.com/people/197302687@N07/)). With my Fujifilm camera, I aim to capture the fleeting beauty of light in nature, knowing each moment is brief and must be photographed while it lasts.
       See my [online CV](cv/) for more professional details.
     skills:
       enable: false
@@ -89,9 +109,10 @@ params:
   #Contact
   contact:
     enable: true
-    title: "Ways to Contact Me"
-    content: My inbox is occasionally monitored. Check the social links above for contacting me via linkedin or github. If those don't work, try the following email address. I’ll try my best to get back to you!
+    title: "Contact Me"
+    content: My inbox is occasionally monitored. Check the social links above for contacting me via linkedin or github. If those don't work, try the following email address. I will try my best to get back to you!
     email: website@tlima.me
     btnName: website@tlima.me
   footer:
-    recentPosts: false
+    recentPosts:
+      enable: false
