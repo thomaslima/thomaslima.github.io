@@ -38,6 +38,7 @@ params:
   #     secondaryBackgroundColor:
       # primaryColor: "#c9e8ff"
       # secondaryColor: "#ffffff"
+      textLinkColor: "#0d6efd"
       highlightColor: "#23577e"
 
   # If you want to customize the menu, you can change it here
@@ -65,7 +66,14 @@ params:
     intro: "Hi, my name is"
     title: "Thomas Ferreira de Lima"
     subtitle: "Welcome to my personal website."
-    content: "I am a physicist specializing in photonic design. Although I am currently working on quantum computing, my PhD research was on integrated photonics for neuromorphic computing, which involves using the physics of optical lightwaves to emulate the functionality of neural networks, but working at gigahertz speed."
+    content: |-
+      I am a physicist specializing in photonic design and test automation.
+      I serve as a principal photonic design engineer at [Quantum Transistors](https://quantumtransistors.com) in New York City.
+
+      Although I am currently working on quantum computing, my PhD research was on integrated photonics for neuromorphic computing,
+      which involves using the physics of optical lightwaves to emulate the functionality of neural networks, but working at gigahertz speed.
+
+      I'm constantly exploring new research avenues in photonics, computing, and quantum information. I'm also committed to advancing knowledge in my field, including through open-source contributions.
     image: /images/IMG_7922_cropped.jpg
     button:
       enable: true
@@ -91,9 +99,10 @@ params:
     title: "About Me"
     image: "/images/IMG_7752_cropped.jpeg"
     content: |-
-      I come from Brazil but live in Princeton, NJ, USA, and currently work as a principal photonic design engineer at [Quantum Transistors](https://quantumtransistors.com) in New York City.
-      Motivated by interesting problems, I am constantly exploring new research avenues and contributing to advancing knowledge in my field, including opensource projects.
+      I come from Brazil but currently live and work in the United States.
       Outside of work, I enjoy swimming, hiking and landscape photography ([flickr page](https://www.flickr.com/people/197302687@N07/)). With my Fujifilm camera, I aim to capture the fleeting beauty of light in nature, knowing each moment is brief and must be photographed while it lasts.
+
+      I'm always happy to connect! Feel free to reach out if you'd like to discuss anything.
       See my [online CV](cv/) for more professional details.
     skills:
       enable: false
@@ -110,7 +119,7 @@ params:
   contact:
     enable: true
     title: "Contact Me"
-    content: My inbox is occasionally monitored. Check the social links above for contacting me via linkedin or github. If those don't work, try the following email address. I will try my best to get back to you!
+    content: Check the social links above for contacting me via linkedin or github. If those don't work, try the following email address. I will try my best to get back to you!
     email: website@tlima.me
     btnName: website@tlima.me
   footer:
