@@ -1,3 +1,6 @@
 [submodule "themes/hugo-profile"]
 	path = themes/hugo-profile
 	url = git@github.com:thomaslima/hugo-profile.git
+[submodule "themes/photo-grid"]
+	path = themes/photo-grid
+	url = https://github.com/chen-zhe/photo-grid
