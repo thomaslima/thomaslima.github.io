@@ -5,6 +5,38 @@ theme: hugo-profile
 contentDir: content
 googleAnalytics: G-9JBSB4773F
 
+
+Menus:
+  main:
+    - identifier: posts
+      name: Posts
+      title: Posts
+      url: /posts
+      weight: 1
+    # - identifier: gallery
+    #   name: Gallery
+    #   title: Blog posts
+    #   url: /gallery
+    #   weight: 2
+    #Dropdown menu
+    # - identifier: dropdown
+    #   title: Example dropdown menu
+    #   name: Dropdown
+    #   weight: 3
+    # - identifier: dropdown1
+    #   title: example dropdown 1
+    #   name: example 1
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 1
+    # - identifier: dropdown2
+    #   title: example dropdown 2
+    #   name: example 2
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 2
+
+
 params:
   title: "Thomas Ferreira de Lima"
   description: Personal Website
@@ -124,4 +156,8 @@ params:
     btnName: website@tlima.me
   footer:
     recentPosts:
-      enable: false
+      path: "posts"
+      count: 3
+      title: Posts
+      enable: true
+      disableFeaturedImage: true
