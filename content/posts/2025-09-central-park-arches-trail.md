@@ -73,14 +73,14 @@ Here’s the sequence of arches and bridges we passed during the walk:
 
 {{< figure src="/artifacts/central-park-31-arches-north-to-south-annotated-photos/IMG_1766.jpeg" alt="Bow Bridge" caption="Bow Bridge" class="d-block mx-auto w-75 text-center" >}}
 
-{{< figure src="/artifacts/central-park-31-arches-north-to-south-annotated-photos/IMG_1776.jpeg" alt="Ramble Arch" caption="Ramble Arch" class="d-block mx-auto w-75 text-center" >}}
+{{< figure src="/artifacts/central-park-31-arches-north-to-south-annotated-photos/IMG_3032.jpeg" alt="Ramble Arch" caption="Ramble Arch" class="d-block mx-auto w-75 text-center" >}}
 
-{{< figure src="/artifacts/central-park-31-arches-north-to-south-annotated-photos/IMG_1777.jpeg" alt="Eaglevale Bridge" caption="Eaglevale Bridge" class="d-block mx-auto w-75 text-center" >}}
+{{< figure src="/artifacts/central-park-31-arches-north-to-south-annotated-photos/IMG_1776.jpeg" alt="Eaglevale Bridge" caption="Eaglevale Bridge" class="d-block mx-auto w-75 text-center" >}}
 
-{{< figure src="/artifacts/central-park-31-arches-north-to-south-annotated-photos/IMG_1779.jpeg" alt="Riftstone Arch" caption="Riftstone Arch" class="d-block mx-auto w-75 text-center" >}}
+{{< figure src="/artifacts/central-park-31-arches-north-to-south-annotated-photos/IMG_1777.jpeg" alt="Riftstone Arch" caption="Riftstone Arch" class="d-block mx-auto w-75 text-center" >}}
 
-{{< figure src="/artifacts/central-park-31-arches-north-to-south-annotated-photos/IMG_1780.jpeg" alt="Dalehead Arch" caption="Dalehead Arch" class="d-block mx-auto w-75 text-center" >}}
+{{< figure src="/artifacts/central-park-31-arches-north-to-south-annotated-photos/IMG_1779.jpeg" alt="Dalehead Arch" caption="Dalehead Arch" class="d-block mx-auto w-75 text-center" >}}
 
-{{< figure src="/artifacts/central-park-31-arches-north-to-south-annotated-photos/IMG_1790.jpeg" alt="Greyshot Arch" caption="Greyshot Arch" class="d-block mx-auto w-75 text-center" >}}
+{{< figure src="/artifacts/central-park-31-arches-north-to-south-annotated-photos/IMG_1780.jpeg" alt="Greyshot Arch" caption="Greyshot Arch" class="d-block mx-auto w-75 text-center" >}}
 
-{{< figure src="/artifacts/central-park-31-arches-north-to-south-annotated-photos/IMG_3032.jpeg" alt="Inscope Arch" caption="Inscope Arch" class="d-block mx-auto w-75 text-center" >}}
+{{< figure src="/artifacts/central-park-31-arches-north-to-south-annotated-photos/IMG_1790.jpeg" alt="Inscope Arch" caption="Inscope Arch" class="d-block mx-auto w-75 text-center" >}}
